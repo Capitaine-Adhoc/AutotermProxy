@@ -9,7 +9,7 @@
  * Les trames relayées ne sont jamais filtrées.
  *
  * Affichage USB, une trame par ligne :
-*   C: AA 03 00 00 0F 58 7C   [CRC OK]   trame reçue de la commande
+ *   C: AA 03 00 00 0F 58 7C   [CRC OK]   trame reçue de la commande
  *   H: AA 04 ...              [CRC OK]   trame reçue du chauffage
  *   C: AA 03 ...              [CRC KO]   trame complète, CRC invalide
  *   C: AA 03 00               [BROKEN]   trame abandonnée après timeout
