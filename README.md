@@ -49,13 +49,7 @@ Cross the UART transmit and receive lines:
 - Arduino RX2 ← Heater TX
 - Common ground, **only if required and electrically compatible with your setup**
 
-**Important:** before connecting the UART lines, verify their voltage levels,
-electrical reference, and signal type. The Arduino Mega uses 5 V logic; level
-shifting or electrical isolation may be required. The DC-DC converter shown in
-the schematic does not, by itself, provide UART level shifting.
-
-See [`hardware/schema.png`](hardware/schema.png). Verify the schematic and
-wiring before applying power.
+**Important:** before connecting the UART lines, verify their voltage levels to be 5V.
 
 ## Installation
 
