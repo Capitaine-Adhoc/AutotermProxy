@@ -47,9 +47,10 @@ Cross the UART transmit and receive lines:
 - Controller RX ← Arduino TX1
 - Arduino TX2 → Heater RX
 - Arduino RX2 ← Heater TX
-- Common ground, **only if required and electrically compatible with your setup**
+- Common ground
+- Common VDC (12-24V)
 
-**Important:** before connecting the UART lines, verify their voltage levels to be 5V.
+**Important:** before connecting the UART lines, verify their logic voltage levels is 5V.
 
 ## Installation
 
